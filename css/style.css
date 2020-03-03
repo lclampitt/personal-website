@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url("../fonts/Nunito/Nunito-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url("../fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Trade Winds';
+  src: url("../fonts/TradeWinds/TradeWinds-Regular.ttf") format("truetype"); }
+/* font family variables. */
+html, body {
+  margin: 0%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: #141313;
+  color: white; }
+
+.navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+  font-family: "Nunito";
+  font-size: 32px; }
+
+.navbar {
+  padding: 1rem 20rem; }
+
+.navbar-nav li {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.nav-item .nav-link {
+  font-family: "Nunito";
+  font-weight: 500;
+  font-size: 18px;
+  padding: 1.7rem;
+  color: #141313; }
+
+.navbar-nav .active a {
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; }
+
+.navbar-nav a:hover {
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; }
+
+/* end nav */
+/* landing page */
+.home-inner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/car.png");
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center; }
+
+.wrapper {
+  height: 100%; }
+
+.caption {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Nunito";
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(300%); }
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem, .1rem, .8rem black; }
+
+.about {
+  padding: 8rem 5rem; }
+
+.aboutpic {
+  max-width: 85%;
+  max-height: 85%; }
+
+.header-spaced {
+  letter-spacing: 5px;
+  font-style: bold; }
+
+.main-text {
+  font-size: 56px; }
+
+.gap {
+  padding: 8rem 5rem; }
+
+.off-white {
+  color: #777777; }
+
+@media (max-width: 992px) {
+  .home-inner {
+    height: 100%;
+    width: 100%; } }
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+/*# sourceMappingURL=style.css.map */
