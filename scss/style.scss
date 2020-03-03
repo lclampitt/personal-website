@@ -54,6 +54,18 @@
     text-align: center;
     
 }
+.scale-down {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.expand {
+    transition: transform .3s ease;
+}
+
+.expand:hover {
+    transform: scale(1.05);
+}
 
 .wrapper {
     height: 100%;
@@ -68,6 +80,17 @@
     margin-left: auto;
     margin-right: auto;
     transform: translateY(300%);
+}
+
+.gradient-color {
+    background: $gradient-color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.lead {
+    font-family: $nunito;
 }
 .caption h1 {
     font-size: 3.8rem;
