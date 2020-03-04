@@ -10,6 +10,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+<script src="./js/script.js"></script>
 <link rel="stylesheet" href="css/all.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css" />
@@ -62,7 +64,7 @@
         </div>
 
     
-    <div class="about offset" id="about">
+    <div class="about offset fade-it " id="about">
         <div class="container-fluid padding">
             <div class="row padding">
                 <div class="col-md-6">
@@ -70,7 +72,7 @@
                 </div>
                 <div class="col-md-6">
                     <h1 class="text-uppercase mt-4 header-spaced gradient-color">About Me</h1>
-                    <p class="lead mt-4">Hello I am Chris. As the big text says above, I am a developer. Let me elaborate. I like to make websites, build apps, create restful API's and even a little bit of game development.
+                    <p class="lead mt-4">Hello I am Chris and I am a developer. Let me elaborate. I like to make websites, build apps, create restful API's and even a little bit of game development.
                         As you browse through my website, you will learn more about my accomplishments, projects, education and much more. However, i'm not staring at a pixelated screen all day writing
                         code. In my freetime I love to fish, work on my car and four-wheeler, travel and build computers.
                     </p>
@@ -78,6 +80,7 @@
                     <ul>
                         <li>NASCAR is my favorite sport. I absolutely love it and watch it every weekend. My favorite driver? Kyle Busch!</li>
                         <li>Favorite show is Big Brother</li>
+                        <li>Favorite band is Breaking Benjamin</li>
                         <li>I was in the Macy's Thanksgiving Day Parade back in 2015</li>
                         <li>I play Trumpet</li>
                       </ul> 
@@ -87,21 +90,30 @@
     </div>
 
     <section class="project" id="projects">
-        <div class="container">
+        <div class="container fade-it">
             <div class="project-title pb-5">
                 <h1 class="text-uppercase header-spaced gradient-color">Projects</h1>
             </div>
 
             <div class="row grid">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="our-project">
+                    <div class="our-project fade-it">
                         <div class="img">
-                            <a href="https://proximityracing.com/">
+                            <a href="https://proximityracing.com/" target="_blank">
                                 <img src="./img/proxweb.png" alt="portfolio-1" class="img-fluid scale-down">
                             </a>
                         </div>
                         <div class="title py-4">
-                            <h4 class="text-uppercase">Proximity Racing</h4>
+                            <i class="expand fab grad fa-aws fa-2x mr-2"></i>
+                            <i class="expand fab grad fa-html5 fa-2x mr-2"></i>
+                            <i class="expand fab grad fa-css3-alt fa-2x mr-2"></i>
+                            <i class="expand fab grad fa-js-square fa-2x mr-2"></i>
+                            <i class="expand fab grad fa-php fa-2x mr-2"></i>
+                            <span class="expand icon-gray-bootstrap mr-2"></span>
+                            <span class="expand icon-gray-mysql mr-2"></span>
+                            <i class="expand fab grad fa-gitkraken fa-2x mr-2"></i>
+                            <i class="expand fab grad fa-github fa-2x"></i>
+                            <h4 class="text-uppercase mt-3">Proximity Racing</h4>
                             <span class="text-secondary">Motorsport racing team website. 
                                 I built this for a race team I founded on iRacing.com, 
                                 a motorsport simualtion service to be used as a tool for professional racecar drivers.</span>
@@ -109,55 +121,71 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 mt-4">
-                    <div class="our-project">
+                    <div class="our-project fade-it">
                         <div class="img">
-                            <a href="http://smartifi.co/">
+                            <a href="http://smartifi.co/" target="_blank">
                                 <img src="./img/smartifi.png" alt="portfolio-3" class="img-fluid scale-down">
                             </a>
                         </div>
                         <div class="title py-4">
-                            <h4 class="text-uppercase">SmartiFi</h4>
+                            <i class="expand fab grad fa-aws fa-2x mr-2"></i>
+                            <i class="expand fab grad fa-html5 fa-2x mr-2"></i>
+                            <i class="expand fab grad fa-sass fa-2x mr-2"></i>
+                            <i class="expand fab grad fa-js-square fa-2x mr-2"></i>
+                            <i class="expand fab grad fa-angular fa-2x mr-2"></i>
+                            <i class="expand fab grad fa-node fa-2x mr-2"></i>
+                            <span class="expand icon-gray-bootstrap"></span>
+                            <span class="expand icon-gray-mongodb"></span>
+                            <i class="expand fab grad fa-github fa-2x"></i>
+                            <h4 class="text-uppercase mt-3">SmartiFi</h4>
                             <span class="off-white">A student loan application built currently for students at Michigan State University. It is a dashboard for students to pay for loans, apply for loans and get approved almost instantly with the power of blockchain technology and self-executing smart contracts.</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 mt-4">
-                    <div class="our-project">
+                    <div class="our-project fade-it">
                         <div class="img">
-                            <a class="test-popup-link" href="./img/portfolio/p2.jpg">
-                                <img src="./img/portfolio/p2.jpg" alt="portfolio-2" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="title py-4">
-                            <h4 class="text-uppercase">ROBLOX</h4>
-                            <span class="off-white">I used to built a variety of games on this site when I was younger. Lua is the first programming language that I learned. This game platform was designed to encourage young or old developers to create any game they wanted with the power of ROBLOX's built-in game engine.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 mt-4">
-                    <div class="our-project">
-                        <div class="img">
-                            <a href="https://play.google.com/store/apps/details?id=serialkiller.serialkiller.chrisnosowsky.serialkillerquiz&hl=en_US">
+                            <a href="https://play.google.com/store/apps/details?id=serialkiller.serialkiller.chrisnosowsky.serialkillerquiz&hl=en_US" target="_blank">
                                 <img src="./img/serialkillerquiz.png" alt="portfolio-4" class="img-fluid scale-down">
                             </a>
                         </div>
                         <div class="title py-4">
-                            <h4 class="text-uppercase">Serial Killer Quiz</h4>
+                            <i class="expand fab grad fa-android fa-2x mr-2"></i>
+                            <i class="expand fab grad fa-google-play fa-2x mr-2"></i>
+                            <span class="expand icon-gray-java mr-2"></span>
+                            <span class="expand icon-gray-postgresql"></span>
+                            <h4 class="text-uppercase mt-3">Serial Killer Quiz</h4>
                             <span class="off-white">A fun application I made over the Summer with my girlfriend. With her interest in psychology and my interest in computer science, we combined both of our brains to create a serial killer quiz app for Android devices.</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-12 col-md-12 col-sm-12 mt-4">
-                    <div class="our-project">
+                    <div class="our-project fade-it">
                         <div class="img">
-                            <a href="https://www.kongregate.com/games/AeroTurn/radioactive-decay">
+                            <a href="https://www.kongregate.com/games/AeroTurn/radioactive-decay" target="_blank">
                                 <img src="./img/decay.png" alt="portfolio-4" class="img-fluid scale-down">
                             </a>
                         </div>
                         <div class="title py-4">
-                            <h4 class="text-uppercase">Radioactive Decay</h4>
+                            <i class="expand fab grad fa-html5 fa-2x mr-2"></i>
+                            <i class="expand fab grad fa-css3-alt fa-2x mr-2"></i>
+                            <h4 class="text-uppercase mt-3">Radioactive Decay</h4>
                             <span class="off-white">I built this Kongregate HTML game back in high school with a friend of mine for a final project for A.P. Chemistry. Funny story, I made the projectiles in the game too difficult so when we gave the presentation, we were hoping to smoothly get through the levels but ended up losing all three of our lives and having to start over. All in all, the class loved it and my teacher thought it was very unique. Biggest regret? Putting my teachers gaming skills to the test.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 mt-4">
+                    <div class="our-project fade-it">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/portfolio/p2.jpg" target="_blank">
+                                <img src="./img/portfolio/p2.jpg" alt="portfolio-2" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <span class="expand icon-gray-lua mr-2"></span>
+                            <h4 class="text-uppercase mt-3">ROBLOX</h4>
+                            <span class="off-white">I used to built a variety of games on this site when I was younger. Lua is the first programming language that I learned. This game platform was designed to encourage young or old developers to create any game they wanted with the power of ROBLOX's built-in game engine.</span>
                         </div>
                     </div>
                 </div>
@@ -165,42 +193,123 @@
         </div>
     </section>
 
-    <div class="education gap" id="education">
-        <div class="container">
+    <div class="education gap fade-it" id="education">
+        <div class="container fade-it">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h1 class=" header-spaced gradient-color mb-4">Education</h1>
-                    <a href="https://msu.edu/">
+                    <a href="https://msu.edu/" target="_blank">
                     <img src="./img/msu.png" alt="portfolio-4" class="img-fluid mt-4 mb-4 scale-down expand"></a>
                 </div>
                 <div class="col-md-12 mt-5">
                     <h3>Michigan State University</h3>
                     <p class="lead">I am currently attending Michigan State University studying Computer Science. I am a Junior undergrad and am planning to graduate May 2021. Throughout my course at the college, I was able to get hands on learning from a variety of clubs and activities on campus.</p>
                 </div>
-                <div class="col-md-12 mt-5">
+                <div class="col-md-12 mt-5 fade-it">
                     <h3>Academics</h3>
                     <ul>
                         <li class="lead">GPA: 3.63</li>
                         <li class="lead">Deans List</li>
                     </ul>
                 </div>
-                <div class="col-md-12 mt-5">
-                    <h4>Coursework</h4>
+                <div class="col-md-12 mt-5 fade-it">
+                    <h3>Computer Science Coursework</h3>
                 </div>
-                <div class="col-md-12 mt-5">
+                <div class="col-md-4 col-xl-3 mt-5 expand fade-it">
+                    <div class="card bg-card order-card">
+                        <div class="card-block">
+                            <h2 class="text-left"><i class="fab fa-python f-left"></i><span> CSE 231</span></h2>
+                            <p class="m-b-0">Introduction to Programming I</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 mt-5 expand fade-it">
+                    <div class="card bg-card order-card">
+                        <div class="card-block">
+                            <h2 class="text-left"><i class="fa-c-plus-plus f-left"></i><span> CSE 232</span></h2>
+                            <p class="m-b-0">Introduction to Programming II</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 mt-5 expand fade-it">
+                    <div class="card bg-card order-card">
+                        <div class="card-block">
+                            <h2 class="text-left"><span> CSE 260</span></h2>
+                            <p class="m-b-0">Discrete Structures Computer Science</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 mt-5 expand fade-it">
+                    <div class="card bg-card order-card">
+                        <div class="card-block">
+                            <h2 class="text-left"><i class="fa-c f-left"></i><span> CSE 320</span></h2>
+                            <p class="m-b-0">Computer Organization and Architecture</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 mt-5 expand fade-it">
+                    <div class="card bg-card order-card">
+                        <div class="card-block">
+                            <h2 class="text-left"><i class="fa-c f-left"></i><span> CSE 325</span></h2>
+                            <p class="m-b-0">Computer Systems</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 mt-5 expand fade-it">
+                    <div class="card bg-card order-card">
+                        <div class="card-block">
+                            <h2 class="text-left"><i class="fab fa-python f-left"></i><span> CSE 331</span></h2>
+                            <p class="m-b-0">Algorithms and Data Structures</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 mt-5 expand fade-it">
+                    <div class="card bg-card order-card">
+                        <div class="card-block">
+                            <h2 class="text-left"><i class="fa-c-plus-plus f-left"></i><span> CSE 335</span></h2>
+                            <p class="m-b-0">Software Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 mt-5 expand fade-it">
+                    <div class="card bg-card order-card">
+                        <div class="card-block">
+                            <h2 class="text-left"><i class="fa-c-plus-plus f-left"></i><span> CSE 422</span></h2>
+                            <p class="m-b-0">Computer Networks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xl-3 mt-5 expand fade-it">
+                    <div class="card bg-card order-card">
+                        <div class="card-block">
+                            <h2 class="text-left"><i class="fa-sqlite2 f-left mr-1"></i><i class="fab fa-python f-left"></i><span> CSE 480</span></h2>
+                            <p class="m-b-0">Database Systems</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 mt-5 fade-it">
                     <h3>Clubs and Activities</h3>
+                </div>
+                <div class="col-md-12 mt-5 fade-it">
                     <h5>Spartan Blockchain Solutions</h5>
-                    <h6>Role: Senior Blockchain Developer</h6>
+                    <h6>Senior Blockchain Developer</h6>
+                </div>
+                <div class="col-md-12 mt-5 fade-it">
+                    <h5>MSU Fishing Club</h5>
+                    <h6>Member</h6>
+                </div>
+                <div class="col-md-12 mt-5 fade-it">
+                    <h5>MSU Paranormal Society</h5>
+                    <h6>Member</h6>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="experience gap" id="experience">
+    <div class="experience gap fade-it" id="experience">
         <div class="container">
-            <div class="row text-center">
+            <div class="row">
                 <div class="col-md-12">
-                    <h1 class="header-spaced gradient-color">Experience</h1>
+                    <h1 class="header-spaced gradient-color text-center">Experience</h1>
                 </div>
                 <div class="col-md-12 mt-4">
                     <p class="lead">I am very fortunate to have been given the opportunity to present myself within these companies. During my time at these companies, I was able to grab hands on learning on each companies software methodologies and their release process. Being able to be fully immersed with the teams was by far the best part and also the biggest learning experience I have gained so far. Here are the following companies I have worked for that deals with my computer science field.</p>
@@ -212,14 +321,37 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <a href="https://www.msufcu.org/">
-                    <img src="./img/msufcutrans.png" alt="" class="img-fluid mt-5 expand"></a>
-                    <h6>Software Quality Assurance Intern</h6>
+                    <a href="https://www.gm.com/" target="_blank">
+                    <img src="./img/GM_Logo.png" alt="" class="img-fluid gm expand"></a>
+                    <h6 class="gapped-gm">Software Engineering EXCEL Intern (INCOMING)</h6>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://www.amerisure.com/Home.aspx">
+                    <a href="https://www.msufcu.org/" target="_blank">
+                    <img src="./img/msufcutrans.png" alt="" class="img-fluid mt-5 expand ml-5 msufcu-gap"></a>
+                    <h6 class="mt-2 ml-5">Software Quality Assurance Intern</h6>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.amerisure.com/Home.aspx" target="_blank">
                     <img src="./img/AmerisureTrans.png" alt="" class="img-fluid mt-3 expand"></a>
-                    <h6>Business Intelligence & Data Warehouse Intern</h6>
+                    <h6 class="mt-2">Business Intelligence & Data Warehouse Intern</h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="connect gap fade-it" id="connect">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h1 class="header-spaced gradient-color">Connect</h1>
+                </div>
+                <div class="col-md-12 mt-5 social padding">
+                    <a href="https://www.facebook.com/chris.nosowsky" target="_blank"><i class="expand fab grad fa-facebook"></i></a>
+                    <a href="https://github.com/ChrisNosowsky" target="_blank"><i class="expand fab grad fa-github"></i></a>
+                    <a href="https://medium.com/@nosowsky" target="_blank"><i class="expand fab grad fa-medium"></i></a>
+                    <a href="https://www.linkedin.com/in/christopher-nosowsky/" target="_blank"><i class="expand fab grad fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/christopher-nosowsky/" target="_blank"><span class="expand icon-gray-hackerrank"></span></a>
                 </div>
             </div>
         </div>
@@ -227,20 +359,11 @@
     </div>
 
 
-
         <!-- ===============End Banner Area=============== -->
     <!-- ===============End Main Area=============== -->
     <script src="js/jquery.3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.navbar-nav li.nav-item a.nav-link').click(function(dudereally) {
-                $('.navbar-nav li.active').removeClass('active');
-                var $par = $(this).parent();
-                $par.addClass('active');
-            });
-        });
-    </script>
+    
     <!-- FIX THIS BELOW
     <script>
         $(document).ready(function () {
