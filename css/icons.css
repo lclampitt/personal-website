@@ -145,4 +145,11 @@
   color: #854fee;
   transform: scale(1.05); }
 
+@media (max-width: 992px) {
+  .icon-gray-hackerrank:before {
+    font-size: 40px; } }
+@media (max-width: 576px) {
+  .icon-gray-hackerrank:before {
+    font-size: 30px; } }
+
 /*# sourceMappingURL=icons.css.map */
