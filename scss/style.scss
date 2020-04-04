@@ -225,6 +225,37 @@
 }
 
 @media (max-width: 768px) {
+    .navbar-nav {
+        background-color: rgba(0,0,0,0.8) !important;
+        float: right !important;
+        align-content: right;
+        justify-items: right;
+        justify-content: right;
+    }
+    .navbar-nav li {
+        left: 0;
+        right: 0;
+        text-align: right;
+    }
+    .navbar {
+        padding: 1rem 1rem;
+    }
+
+    .navbar-toggler {
+        float: right !important;
+    }
+
+    .home-inner {
+        background-position: -400px 0px;
+        background-color: rgba(0,0,0,0.6) !important;   
+        background-attachment: scroll;
+        background-blend-mode: color;
+            -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
     .social a {
         font-size: 2.5em;
         padding: 2.5rem;
@@ -232,9 +263,7 @@
 }
 
 @media (max-width: 576px) {
-    .navbar .navbar-brand {
-        padding: 0 2rem 0 0rem;
-    }
+
     .caption {
         margin-left: auto;
         margin-right: auto;
