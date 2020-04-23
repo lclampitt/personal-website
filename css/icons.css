@@ -68,6 +68,28 @@
   color: #854fee;
   transform: scale(1.05); }
 
+.icon-gray-dart:before {
+  content: "\e902";
+  color: #dfdfdf;
+  font-size: 30px;
+  display: inline-block;
+  transition: all .3s ease-in-out; }
+
+.icon-gray-dart:hover::before {
+  color: #854fee;
+  transform: scale(1.05); }
+
+.icon-gray-flutter:before {
+  content: "\e901";
+  color: #dfdfdf;
+  font-size: 30px;
+  display: inline-block;
+  transition: all .3s ease-in-out; }
+
+.icon-gray-flutter:hover::before {
+  color: #854fee;
+  transform: scale(1.05); }
+
 .icon-gray-bootstrap:before {
   content: "\6e";
   color: #dfdfdf;
