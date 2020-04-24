@@ -79,6 +79,17 @@
   color: #854fee;
   transform: scale(1.05); }
 
+.icon-gray-apple:before {
+  content: "\e903";
+  color: #dfdfdf;
+  font-size: 30px;
+  display: inline-block;
+  transition: all .3s ease-in-out; }
+
+.icon-gray-apple:hover::before {
+  color: #854fee;
+  transform: scale(1.05); }
+
 .icon-gray-flutter:before {
   content: "\e901";
   color: #dfdfdf;
