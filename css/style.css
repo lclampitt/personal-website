@@ -46,7 +46,7 @@ html, body {
 .icon-c:before {
   content: "\63";
   color: #a8b9cc;
-  font-size: 35px; }
+  font-size: 30px; }
 
 .icon-mongodb:before {
   content: "\61";
@@ -132,7 +132,7 @@ html, body {
 .icon-gray-c:before {
   content: "\63";
   color: #dfdfdf;
-  font-size: 35px;
+  font-size: 30px;
   display: inline-block;
   transition: all .3s ease-in-out; }
 
@@ -192,6 +192,17 @@ html, body {
   transition: all .3s ease-in-out; }
 
 .icon-gray-mysql:hover::before {
+  color: #854fee;
+  transform: scale(1.05); }
+
+.icon-gray-arduino:before {
+  content: "\e904";
+  color: #dfdfdf;
+  font-size: 35px;
+  display: inline-block;
+  transition: all .3s ease-in-out; }
+
+.icon-gray-arduino:hover::before {
   color: #854fee;
   transform: scale(1.05); }
 
@@ -348,6 +359,12 @@ html, body {
   color: #777777; }
 
 .grad:hover {
+  color: #854fee; }
+
+.grad-before-white {
+  color: white; }
+
+.grad-before-white:hover {
   color: #854fee; }
 
 .gm {
