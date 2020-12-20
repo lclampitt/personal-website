@@ -1,30 +1,36 @@
+@charset "UTF-8";
 @font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/Nunito/Nunito-Bold.ttf") format("truetype"); }
+  font-family: "Nunito";
+  src: url("../fonts/Nunito/Nunito-Bold.ttf") format("truetype");
+}
 @font-face {
-  font-family: 'Source Sans Pro';
-  src: url("../fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype"); }
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype");
+}
 @font-face {
-  font-family: 'Trade Winds';
-  src: url("../fonts/TradeWinds/TradeWinds-Regular.ttf") format("truetype"); }
+  font-family: "Trade Winds";
+  src: url("../fonts/TradeWinds/TradeWinds-Regular.ttf") format("truetype");
+}
 /* font family variables. */
 html, body {
   margin: 0%;
   width: 100%;
   height: 100%;
   background: #141313;
-  color: #dfdfdf; }
+  color: #dfdfdf;
+}
 
 @font-face {
-  font-family: 'icomoon';
+  font-family: "icomoon";
   src: url("../fonts/icomoon.eot?2bjt02");
   src: url("../fonts/icomoon.eot?2bjt02#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?2bjt02") format("truetype"), url("../fonts/icomoon.woff?2bjt02") format("woff"), url("../fonts/icomoon.svg?2bjt02#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
-  font-display: block; }
-[class^="icon-"], [class*=" icon-"] {
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -32,234 +38,270 @@ html, body {
   line-height: 1;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+}
 
 .icon-hackerrank:before {
-  content: "\e900";
-  color: #2ec866; }
+  content: "";
+  color: #2ec866;
+}
 
 .icon-bootstrap:before {
-  content: "\6e";
+  content: "n";
   color: #563d7c;
-  font-size: 30px; }
+  font-size: 30px;
+}
 
 .icon-c:before {
-  content: "\63";
+  content: "c";
   color: #a8b9cc;
-  font-size: 30px; }
+  font-size: 30px;
+}
 
 .icon-mongodb:before {
-  content: "\61";
+  content: "a";
   color: #47a248;
-  font-size: 35px; }
+  font-size: 35px;
+}
 
 .icon-lua:before {
-  content: "\73";
+  content: "s";
   color: #2c2d72;
-  font-size: 35px; }
+  font-size: 35px;
+}
 
 .icon-java:before {
-  content: "\68";
+  content: "h";
   color: #007396;
-  font-size: 35px; }
+  font-size: 35px;
+}
 
 .icon-postgresql:before {
-  content: "\74";
+  content: "t";
   color: #336791;
-  font-size: 35px; }
+  font-size: 35px;
+}
 
 .icon-mysql:before {
-  content: "\e906";
+  content: "";
   color: #4479a1;
-  font-size: 35px; }
+  font-size: 35px;
+}
 
 /* GRAY-SCALE BELOW */
 .icon-gray-hackerrank:before {
-  content: "\e900";
+  content: "";
   color: #777777;
   font-size: 55px;
   display: inline-block;
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .icon-gray-hackerrank:hover::before {
   color: #854fee;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .icon-gray-dart:before {
-  content: "\e902";
+  content: "";
   color: #dfdfdf;
   font-size: 30px;
   display: inline-block;
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .icon-gray-dart:hover::before {
   color: #854fee;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .icon-gray-apple:before {
-  content: "\e903";
+  content: "";
   color: #dfdfdf;
   font-size: 30px;
   display: inline-block;
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .icon-gray-apple:hover::before {
   color: #854fee;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .icon-gray-flutter:before {
-  content: "\e901";
+  content: "";
   color: #dfdfdf;
   font-size: 30px;
   display: inline-block;
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .icon-gray-flutter:hover::before {
   color: #854fee;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .icon-gray-bootstrap:before {
-  content: "\6e";
+  content: "n";
   color: #dfdfdf;
   font-size: 30px;
   display: inline-block;
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .icon-gray-bootstrap:hover::before {
   color: #854fee;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .icon-gray-c:before {
-  content: "\63";
+  content: "c";
   color: #dfdfdf;
   font-size: 30px;
   display: inline-block;
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .icon-gray-c:hover::before {
   color: #854fee;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .icon-gray-mongodb:before {
-  content: "\61";
+  content: "a";
   color: #dfdfdf;
   font-size: 35px;
   display: inline-block;
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .icon-gray-mongodb:hover::before {
   color: #854fee;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .icon-gray-lua:before {
-  content: "\73";
+  content: "s";
   color: #dfdfdf;
   font-size: 35px;
   display: inline-block;
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .icon-gray-lua:hover::before {
   color: #854fee;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .icon-gray-java:before {
-  content: "\68";
+  content: "h";
   color: #dfdfdf;
   font-size: 35px;
   display: inline-block;
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .icon-gray-java:hover::before {
   color: #854fee;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .icon-gray-postgresql:before {
-  content: "\74";
+  content: "t";
   color: #dfdfdf;
   font-size: 35px;
   display: inline-block;
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .icon-gray-postgresql:hover::before {
   color: #854fee;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .icon-gray-mysql:before {
-  content: "\e906";
+  content: "";
   color: #dfdfdf;
   font-size: 35px;
   display: inline-block;
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .icon-gray-mysql:hover::before {
   color: #854fee;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .icon-gray-arduino:before {
-  content: "\e904";
+  content: "";
   color: #dfdfdf;
   font-size: 35px;
   display: inline-block;
-  transition: all .3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+}
 
 .icon-gray-arduino:hover::before {
   color: #854fee;
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 @media (max-width: 992px) {
   .icon-gray-hackerrank:before {
-    font-size: 40px; } }
+    font-size: 40px;
+  }
+}
 @media (max-width: 576px) {
   .icon-gray-hackerrank:before {
-    font-size: 30px; } }
-.navbar-brand {
-      padding: 0 0rem 0 00rem;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-      font-family: "Nunito";
-      font-size: 32px; 
+    font-size: 30px;
+  }
 }
-  
+.navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+  font-family: "Nunito";
+  font-size: 32px;
+}
+
 .navbar {
-    padding: 0 18rem 0 18rem;
-    margin-right: auto;    
-    margin-left: auto;    
-    max-width: 100%;    
-    min-width: 1500px;
+  padding: 1rem 20rem;
 }
 
 .navbar-nav li {
   padding-left: 30px;
-  padding-right: 30px; }
+  padding-right: 30px;
+}
 
 .anchor-nostyle {
   text-decoration: none;
-  color: inherit; }
+  color: inherit;
+}
 
 .anchor-nostyle:hover {
   color: white;
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .nav-item .nav-link {
   font-family: "Nunito";
   font-weight: 500;
   font-size: 18px;
   padding: 1.7rem;
-  color: #141313; }
+  color: #141313;
+}
 
 .active {
   background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text; }
+  background-clip: text;
+}
 
 .navbar-nav a:hover {
   background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text; }
+  background-clip: text;
+}
 
 /* end nav */
 /* landing page */
@@ -273,20 +315,25 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  text-align: center; }
+  text-align: center;
+}
 
 .scale-down {
   max-width: 60%;
-  max-height: 60%; }
+  max-height: 60%;
+}
 
 .expand {
-  transition: transform .3s ease; }
+  transition: transform 0.3s ease;
+}
 
 .expand:hover {
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .wrapper {
-  height: 100%; }
+  height: 100%;
+}
 
 .caption {
   color: white;
@@ -297,7 +344,8 @@ html, body {
   vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
-  transform: translateY(300%); }
+  transform: translateY(300%);
+}
 
 .lower-cap {
   color: white;
@@ -308,163 +356,167 @@ html, body {
   vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 400px; }
+  margin-top: 400px;
+}
 
 .gradient-color {
   background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text; }
+  background-clip: text;
+}
 
 .lead {
-  font-family: "Nunito"; }
+  font-family: "Nunito";
+}
 
 .caption h1 {
   font-size: 3.8rem;
   font-weight: 700;
-  letter-spacing: .3rem;
-  text-shadow: .1rem, .1rem, .8rem black; }
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem, 0.1rem, 0.8rem black;
+}
 
 .flex-column {
-  max-width: 260px; }
+  max-width: 260px;
+}
 
 .lightbox {
-  margin: 10px; }
+  margin: 10px;
+}
+
+.size-gap-top {
+  margin-top: 5em;
+}
 
 .about {
-  padding: 8rem 5rem; }
+  padding: 8rem 5rem;
+}
 
 .aboutpic {
   max-width: 85%;
-  max-height: 85%; }
+  max-height: 85%;
+}
 
 .header-spaced {
   letter-spacing: 5px;
-  font-style: bold; }
+  font-style: bold;
+}
 
 .main-text {
-  font-size: 56px; }
+  font-size: 56px;
+}
 
 .weis {
-  color: #dfdfdf; }
+  color: #dfdfdf;
+}
 
 .gap {
-  padding: 8rem 5rem; }
+  padding: 8rem 5rem;
+}
 
 .gap-big {
-  padding: 14rem 5rem; }
+  padding: 14rem 5rem;
+}
 
 .off-white {
-  color: #777777; }
+  color: #777777;
+}
 
 .social a {
   font-size: 3.5em;
   padding: 3.5rem;
-  color: #777777; }
+  color: #777777;
+}
 
 .tech-logos i {
   font-size: 3.5em;
   padding: 3.5rem;
-  color: #777777; }
+  color: #777777;
+}
 
 .grad:hover {
-  color: #854fee; }
+  color: #854fee;
+}
 
 .grad-before-white {
-  color: white; }
+  color: white;
+}
 
 .grad-before-white:hover {
-  color: #854fee; }
+  color: #854fee;
+}
 
 .gm {
-  padding-top: 6rem; }
+  padding-top: 6rem;
+}
 
 .gapped-gm {
-  padding-top: 1.7rem; }
+  padding-top: 1.7rem;
+}
 
 .msufcu-gap {
-  padding-left: 1rem; }
+  padding-left: 1rem;
+}
 
 .order-card {
-  color: #fff; }
+  color: #fff;
+}
 
 .bg-card {
   background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
   height: 150px;
-  width: 250px; }
-
-.card .card-block {
-  padding: 25px; }
-
-@media (max-width: 1380px) {
-  .navbar-brand {
-    padding: 0 0rem 0 0rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    font-family: "Nunito";
-    font-size: 32px; }
-
-  .navbar {
-    padding: 0 12rem 0 12rem;
-    margin-right: auto;    
-    margin-left: auto;    
-    max-width: 100%;    
-    min-width: 1000px;
-  
-  }
-  
-  .navbar-nav li {
-    padding-left: 20px;
-    padding-right: 20px; }
+  width: 250px;
 }
 
+.card .card-block {
+  padding: 25px;
+}
 
 @media (max-width: 992px) {
-  .caption {
-    transform: translateY(250%); }
-  
-  .lower-cap {
-    margin-top: 350px; }
-
-
-  .navbar-brand {
-    padding: 0 0rem 0 0rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+  .navbar .navbar-brand {
+    padding: 0 2rem 0 0rem;
     font-family: "Nunito";
-    font-size: 32px; }
+    font-size: 32px;
+  }
 
   .navbar {
-    padding: 0 5rem 0 5rem;
-    margin-right: auto;    
-    margin-left: auto;    
-    max-width: 100%;    
-    min-width: 800px;
-  
+    padding: 1rem 10rem;
   }
-  
+
   .navbar-nav li {
-    padding-left: 5px;
-    padding-right: 5px; }
-  
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .social a {
     font-size: 2.5em;
     padding: 2.5rem;
-    color: #777777; } }
+    color: #777777;
+  }
+}
 @media (max-width: 768px) {
   .navbar-nav {
     background-color: rgba(0, 0, 0, 0.8) !important;
     float: right !important;
     align-content: right;
     justify-items: right;
-    justify-content: right; }
+    justify-content: right;
+  }
 
+  .navbar-nav li {
+    left: 0;
+    right: 0;
+    text-align: right;
+  }
 
+  .navbar {
+    padding: 1rem 1rem;
+  }
 
   .navbar-toggler {
-    float: right !important; }
+    float: right !important;
+  }
 
   .home-inner {
     background-position: -400px 0px;
@@ -475,55 +527,71 @@ html, body {
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    background-size: cover; }
+    background-size: cover;
+  }
 
   .social a {
     font-size: 2.5em;
-    padding: 2.5rem; } }
+    padding: 2.5rem;
+  }
+}
 @media (max-width: 576px) {
   .caption {
     margin-left: auto;
     margin-right: auto;
-    transform: translateY(350%); }
+    transform: translateY(350%);
+  }
 
   .mobile_h1 {
-    font-size: 32px !important; }
+    font-size: 32px !important;
+  }
 
   .mobile_h3 {
-    font-size: 18px !important; }
+    font-size: 18px !important;
+  }
 
   .scale-down {
     max-width: 80%;
-    max-height: 80%; }
+    max-height: 80%;
+  }
 
   .full-img {
     max-width: 90%;
-    max-height: 90%; }
+    max-height: 90%;
+  }
 
   .aboutpic {
     max-width: 100%;
-    max-height: 100%; }
+    max-height: 100%;
+  }
 
   .mobile_about {
-    font-size: 35px; }
+    font-size: 35px;
+  }
 
   .mobile_center_title {
     text-align: center !important;
     margin-left: 0 !important;
-    margin-right: 0 !important; }
+    margin-right: 0 !important;
+  }
 
   .about {
-    padding: 8rem 0rem; }
+    padding: 8rem 0rem;
+  }
 
   .social a {
     font-size: 2em;
-    padding: 1rem; }
+    padding: 1rem;
+  }
 
   .gap {
-    padding: 8rem 0rem; }
+    padding: 8rem 0rem;
+  }
 
   .msufcu-gap {
-    padding-left: 2.5rem; } }
+    padding-left: 2.5rem;
+  }
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
