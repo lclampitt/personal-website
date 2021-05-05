@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon2.eot?2bjt02');
+    src:  url('../fonts/icomoon2.eot?2bjt02#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon2.ttf?2bjt02') format('truetype'),
+      url('../fonts/icomoon2.woff?2bjt02') format('woff'),
+      url('../fonts/icomoon2.svg?2bjt02#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.icon-node-dot-js:before {
+  content: "\e940";
+  color: #393;
+}
+
+.icon-typescript:before {
+  content: "\e941";
+  color: #007acc;
+}
+
+.icon-microsoftazure:before {
+  content: "\e942";
+  color: #0089d6;
+}
+
+.icon-gray-typescript:before {
+    content: "\e941";
+    color: #dfdfdf;
+    font-size: 30px;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+  }
+  .icon-gray-typescript:hover::before {
+    color: #854fee;
+    transform: scale(1.05);
+  }
+
+
+  .icon-gray-microsoftazure:before {
+    content: "\e942";
+    color: #dfdfdf;
+    font-size: 30px;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+  }
+  .icon-gray-microsoftazure:hover::before {
+    color: #854fee;
+    transform: scale(1.05);
+  }
+
+
+/*# sourceMappingURL=icons2.css.map */
