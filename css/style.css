@@ -453,8 +453,16 @@ html, body {
   margin: 10px;
 }
 
+.small_logo {
+  max-width: 100px;
+}
+
 .size-gap-top {
   margin-top: 5em;
+}
+
+.size-gap-left {
+  margin-left: 7em;
 }
 
 .about {
